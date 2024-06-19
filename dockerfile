@@ -18,7 +18,6 @@ RUN apt-get update && apt-get install -y swig
 RUN pip install --upgrade pip
 RUN pip install gymnasium[box2d]
      
-
 # Копируем файлы проекта в рабочую директорию контейнера
 COPY . /app
 
